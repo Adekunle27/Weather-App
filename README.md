@@ -2,7 +2,7 @@
 Asynchronous Node.js Weather Application
 
 ### Set your Google API key
- > `https://developers.google.com/maps/documentation/javascript/get-api-key`
+ > https://developers.google.com/maps/documentation/javascript/get-api-key
 
 ### Take help from: 
  > https://developers.google.com/maps/documentation/geocoding/start
