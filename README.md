@@ -1,30 +1,17 @@
 # Weather-App
-Asynchronous Node.js Weather Application.
+Asynchronous Node.js Weather Application to fetch weather information based on your given address.
 
-### Download node_modules i.e, dependencies
-npm install
+### Downloading this  Repository
+Open your command prompt/terminal/Git Bash and type :-  `git clone https://github.com/arnab-datta/Weather-App.git`
+
+### To download all needed node_modules i.e, dependencies to run the project ( Inside your project folder ) ->
+Go to terminal and run the command :- 
+
+`npm install`
 
 ### Run any of the following commands from the terminal
 `node app-promise.js -a 'your address'`
 
+(or)
+
 `node app.js -a 'your address'`
-
-## Set UP
-
-### Set your Google API key
- > https://developers.google.com/maps/documentation/javascript/get-api-key
-
-### Take help from: 
- > https://developers.google.com/maps/documentation/geocoding/start
-
-* So, when requesting from maps.googleapis.com the URL(in app.js / app-promise.js) will be (including the API key) :- 
-
-* `url =>  https://maps.googleapis.com/maps/api/geocode/json?address=${your encoded address}&key=__Put your API Key here__`
-
-### Creating the darksky.net dev account and get the weather API
- > https://darksky.net/dev
-
- * Register here, create account and get the API key.
-
- * `https://api.darksky.net/forecast/__Put your API Key here__/${lat},${lng}`
-
