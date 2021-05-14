@@ -9,7 +9,7 @@ Go to terminal and run the command :-
 
 `npm install`
 
-### Run any of the following commands from the terminal
+### For working the application run any of the following commands from the terminal
 `node app-promise.js -a 'your address'`
 
 (or)
